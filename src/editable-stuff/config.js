@@ -46,7 +46,6 @@ const about = {
   imageLink: require("../editable-stuff/kay.jpeg"),
   imageSize: 375,
   message: "Hi! My name is Kay and I am a Junior at Northwestern University majoring in Communication Studies. I am also pursuing minors in Music Technology, Business Institutions, and an Integrated Marketing Communications (IMC) Certificate.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
