@@ -54,7 +54,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             <p className="lead text-center">
               <a
                 className="btn btn-outline-dark btn-lg"
-                href={resume}
+                href="#experiences"
                 target="_blank"
                 rel="noreferrer noopener"
                 role="button"
