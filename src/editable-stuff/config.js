@@ -114,7 +114,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking Summer 2022 internship opportunities! If you know of any positions available, or if you have any questions, please feel free to email me at",
+    "I'm currently looking Summer 2023 internship opportunities! If you know of any positions available, or if you have any questions, please feel free to email me at",
   email: "kaycui@u.northwestern.edu",
 };
 
