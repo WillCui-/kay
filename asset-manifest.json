@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/kay/static/css/main.36c191a4.css",
-    "main.js": "/kay/static/js/main.b84e738b.js",
+    "main.js": "/kay/static/js/main.ffb1ae29.js",
     "static/js/787.4b24f717.chunk.js": "/kay/static/js/787.4b24f717.chunk.js",
-    "static/media/vk1.jpeg": "/kay/static/media/vk1.3c17d565f861eed0e325.jpeg",
     "static/media/niteskool.jpg": "/kay/static/media/niteskool.05e6e8c78b96eacba288.jpg",
+    "static/media/vk1.jpeg": "/kay/static/media/vk1.ac5f79d0a4b8726ef11c.jpeg",
     "static/media/s4r.jpg": "/kay/static/media/s4r.0717138e9f5aad1571e9.jpg",
     "static/media/be.png": "/kay/static/media/be.b42c9e66a1b5735790f2.png",
     "static/media/kay.jpeg": "/kay/static/media/kay.66279357b55ff223b82e.jpeg",
@@ -16,11 +16,11 @@
     "static/media/patch.png": "/kay/static/media/patch.0f23f147d08ba5e8cab7.png",
     "index.html": "/kay/index.html",
     "main.36c191a4.css.map": "/kay/static/css/main.36c191a4.css.map",
-    "main.b84e738b.js.map": "/kay/static/js/main.b84e738b.js.map",
+    "main.ffb1ae29.js.map": "/kay/static/js/main.ffb1ae29.js.map",
     "787.4b24f717.chunk.js.map": "/kay/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36c191a4.css",
-    "static/js/main.b84e738b.js"
+    "static/js/main.ffb1ae29.js"
   ]
 }
