@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kay/static/css/main.36c191a4.css",
-    "main.js": "/kay/static/js/main.7e5e0931.js",
+    "main.js": "/kay/static/js/main.2f4a055a.js",
     "static/js/787.4b24f717.chunk.js": "/kay/static/js/787.4b24f717.chunk.js",
     "static/media/niteskool.jpg": "/kay/static/media/niteskool.05e6e8c78b96eacba288.jpg",
     "static/media/vk1.jpeg": "/kay/static/media/vk1.ac5f79d0a4b8726ef11c.jpeg",
     "static/media/s4r.jpg": "/kay/static/media/s4r.0717138e9f5aad1571e9.jpg",
     "static/media/be.png": "/kay/static/media/be.b42c9e66a1b5735790f2.png",
+    "static/media/ano.jpg": "/kay/static/media/ano.61c0423a99c105a6fb24.jpg",
     "static/media/kay.jpeg": "/kay/static/media/kay.66279357b55ff223b82e.jpeg",
-    "static/media/ano.jpg": "/kay/static/media/ano.27d9122007bab56d351e.jpg",
     "static/media/resume.pdf": "/kay/static/media/resume.99e37cd5fea2358b59e2.pdf",
     "static/media/rnb.jpeg": "/kay/static/media/rnb.354adf43dbcbd6a91ae1.jpeg",
     "static/media/nwm.png": "/kay/static/media/nwm.3883899f3914afdfaf27.png",
@@ -16,11 +16,11 @@
     "static/media/patch.png": "/kay/static/media/patch.0f23f147d08ba5e8cab7.png",
     "index.html": "/kay/index.html",
     "main.36c191a4.css.map": "/kay/static/css/main.36c191a4.css.map",
-    "main.7e5e0931.js.map": "/kay/static/js/main.7e5e0931.js.map",
+    "main.2f4a055a.js.map": "/kay/static/js/main.2f4a055a.js.map",
     "787.4b24f717.chunk.js.map": "/kay/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36c191a4.css",
-    "static/js/main.7e5e0931.js"
+    "static/js/main.2f4a055a.js"
   ]
 }
