@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4E2A84, #722F37, #B6ACD1, #401F68, #E4E0EE",
   firstName: "Kay",
   middleName: "",
   lastName: "Cui",
@@ -20,9 +20,9 @@ const mainBody = {
       url: "https://www.linkedin.com/in/kay-cui/",
     },
     {
-      image: "fas fa-music",
-      url: "https://www.instagram.com/vitamink.mp3/"
-    },
+      image: "fab icon-vitamink",
+      url: "https://www.instagram.com/vitamink.mp3/",
+    }
   ],
 };
 
@@ -85,9 +85,17 @@ const leadership = {
   }
 };
 
+const projects = {
+  show: true,
+  heading: "Projects",
+  projects: [
+
+  ]
+}
+
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Microsoft Suite", value: 90 },
@@ -113,8 +121,7 @@ const skills = {
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
-  message:
-    "I'm currently looking Summer 2023 internship opportunities! If you know of any positions available, or if you have any questions, please feel free to email me at",
+  message: "",
   email: "kaycui@u.northwestern.edu",
 };
 
@@ -123,19 +130,44 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'President',
-      companylogo: require('../assets/img/niteskool.png'),
-      date: 'Sep 2020 – Present',
+      role: 'Marketing Chair and Sound Engineer',
+      companylogo: require('../assets/img/s4r.jpg'),
+      date: 'Feb 2021 - Present'
     },
     {
       role: 'Marketing and Media, Street Team',
-      companylogo: require('../assets/img/ano.png'),
-      date: 'Oct 2020 – President',
+      companylogo: require('../assets/img/ano.jpg'),
+      date: 'Oct 2020 – Present',
+    },
+    {
+      role: 'President',
+      companylogo: require('../assets/img/niteskool.jpg'),
+      date: 'Sep 2020 – Present',
+    },
+    {
+      role: 'Administrative Aide',
+      companylogo: require('../assets/img/nwm.png'),
+      date: 'Dec 2020 - Jun 2022'
+    },
+    {
+      role: 'Xfinity On Campus Brand Ambassador',
+      companylogo: require('../assets/img/rnb.jpeg'),
+      date: 'Sep 2021 - Nov 2021',
     },
     {
       role: 'Marketing Intern',
       companylogo: require('../assets/img/lnc.png'),
       date: 'Jun 2021 - Aug 2021',
+    },
+    {
+      role: 'Research Assistant',
+      companylogo: require('../assets/img/nw.png'),
+      date: 'Oct 2020 - Jun 2021',
+    },
+    {
+      role: 'Co-Founder',
+      companylogo: require('../assets/img/be.png'),
+      date: 'Sep 2016- Dec 2020',
     },
     {
       role: 'Social Media Intern',
@@ -145,4 +177,16 @@ const experiences = {
   ]
 }
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+const vitamink = {
+  show: true,
+  heading: "Vitamin K",
+}
+
+const contact = {
+  show: true,
+  heading: "Contact Me",
+  message: "I'm currently looking Summer 2023 internship opportunities! If you know of any positions available, or if you have any questions, please feel free to email me at",
+  email: "kaycui@u.northwestern.edu",
+}
+
+export { navBar, mainBody, about, projects, repos, skills, leadership, getInTouch, experiences, vitamink, contact };

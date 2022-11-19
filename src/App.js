@@ -1,24 +1,21 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import {
   navBar,
   mainBody,
   about,
-  leadership,
-  skills,
-  getInTouch,
-  experiences
+  projects,
+  experiences,
+  vitamink,
+  contact
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Experience from "./components/home/Experience";
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Skills from "./components/home/Skills";
-// import { Blog } from "./components/blog/Blog";
-// import BlogPost from "./components/blog/BlogPost";
-import GetInTouch from "./components/home/GetInTouch.jsx";
-import Leadership from "./components/home/Leadership.jsx";
+import Projects from "./components/home/Projects";
+import VitaminK from "./components/home/VitaminK";
+import Contact from "./components/home/Contact";
 
 
 const Home = React.forwardRef((props, ref) => {
@@ -31,32 +28,6 @@ const Home = React.forwardRef((props, ref) => {
         icons={mainBody.icons}
         ref={ref}
       />
-      {about.show && (
-        <AboutMe
-          heading={about.heading}
-          message={about.message}
-          link={about.imageLink}
-          imgSize={about.imageSize}
-        />
-      )}
-      {experiences.show && (
-        <Experience experiences={experiences} />
-      )}
-      {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
-        />
-      )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
     </>
   );
 });
@@ -65,23 +36,45 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <HashRouter basename={"/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
-      </Routes>
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
-      <Footer>
-        {getInTouch.show && (
-          <GetInTouch
-            heading={getInTouch.heading}
-            message={getInTouch.message}
-            email={getInTouch.email}
+        <Route path="/about" element={
+          <AboutMe
+            heading={about.heading}
+            message={about.message}
+            link={about.imageLink}
+            imgSize={about.imageSize}
+            ref={titleRef}
           />
-        )}
-      </Footer>
-    </BrowserRouter>
+        } />
+        <Route path="/experiences" element={
+          <Experience
+            experiences={experiences}
+            ref={titleRef}
+          />
+        } />
+        <Route path="/projects" element={
+          <Projects
+            projects={projects}
+            ref={titleRef}
+          />
+        } />
+        <Route path="/vitamink" element={
+          <VitaminK
+            vitamink={vitamink}
+            ref={titleRef}
+          />
+        } />
+        <Route path="/contact" element={
+          <Contact
+            contact={contact}
+            ref={titleRef}
+          />
+        } />
+      </Routes>
+    </HashRouter>
   );
 };
 
