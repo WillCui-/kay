@@ -104,7 +104,7 @@ const MainBody = React.forwardRef(
             <Carousel
               axis="horizontal"
               autoPlay
-              interval={1000}
+              interval={5000}
               infiniteLoop
               showArrows={false}
               showIndicators={false}

@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Kay",
   middleName: "",
   lastName: "Cui",
-  message: " Music Technology, DJ, blah blah blah add slogan here ",
+  message: "Creator. DJ. Musician.",
   icons: [
     {
       image: "fab fa-instagram",

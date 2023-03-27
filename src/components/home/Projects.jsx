@@ -1,12 +1,19 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 import { Jumbotron } from './migration';
+
+const dendriteLink =
+    <a
+        href='https://www.imdb.com/title/tt21263496/'
+        target="_blank"
+        rel="noreferrer"
+        aria-label='Dendrite IMDB'>
+        American Dendrite
+    </a>
 
 const Projects = React.forwardRef(
     ({ projects }, ref) => {
@@ -33,7 +40,7 @@ const Projects = React.forwardRef(
                                     </a>
                                 </Card.Title>
                                 <Card.Text>
-                                    I worked as a sound mixer on American Dendrite (hyperlink to imdb), an experimental hybrid documentary film project. My crew and I road tripped from Chicago to New Orleans while following the path of the Mississippi River. Along the way, we collected field recordings and interviewed folks from small towns and large cities. Everything was shot using Super 8 film.
+                                    I worked as a sound mixer on {dendriteLink}, an experimental hybrid documentary film project. My crew and I road tripped from Chicago to New Orleans while following the path of the Mississippi River. Along the way, we collected field recordings and interviewed folks from small towns and large cities. Everything was shot using Super 8 film.
                                 </Card.Text>
                                 <Button
                                     href="https://seedandspark.com/fund/americandendrite#updates/37633/"
